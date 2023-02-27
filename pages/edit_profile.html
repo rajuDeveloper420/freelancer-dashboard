@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <title>Freelancer Dashboard</title>
+    </head>
+    <body>
+
+
+    <!-- Top bar Main Header -->
+    <section class="top_header main_header" id="main_header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-10 col-10 m-auto">
+                    <div class="profile_logo d-flex align-items-center justify-content-center">
+                        <img src="../assets/img/profile.jpg" class="img-fluid img-thumbnail rounded-circle shadow" alt="...">
+                        <div class="profile_text">
+                            <h4>নাম: মো: রা‌সেল ইসলাম</h4>
+                            <h4>আই‌ডি নং: ৫১৬২৬৭</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        
+        <!-- My Profile -->
+        <section class="my_profile">
+            <div class="container pt-4">
+
+                <div class="row justify-content-center pt-4">
+                    <form action="#" class="edit_profile">
+
+                      <div class="profile_image_ulode mb-2">
+                            <img src="../assets/img/profile.jpg" alt="" class="img_up" id="upload">
+
+                            <input type="file" class="my_file" accept="image/*" onchange="loadFile(event)">
+                            <i class="fa fa-camera" aria-hidden="true"></i>
+
+                        </div>
+
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="name">নাম <span>*</span></label>
+                          <input type="text" class="form-control" id="name" value="মোঃ রাজু শেখ ">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="email">ইমেইল <span>*</span></label>
+                          <input type="email" class="form-control" id="email" value="rajusheikh061@gmail.com">
+                        </div>
+                      </div>
+
+
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="phone">মোবাইল নং <span>*</span></label>
+                          <input type="text" class="form-control" id="phone" value="০১৭২৯৩৪৫১৯৬">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="dob">জন্ম তারিখ <span>*</span></label>
+                          <input type="text" class="form-control" id="dob" value="12/02/2020">
+                        </div>
+                      </div>
+
+                      <div class="form-row">
+                        <div class="form-group col-md-4">
+                          <label for="id_no">আইডি নং <span>*</span></label>
+                          <input type="text" class="form-control" id="id_no" value="১৫২৪৫৬">
+                        </div>
+
+                         <div class="form-group col-md-4">
+                          <label for="join_date">জয়েন্ট ডেট <span>*</span></label>
+                          <input type="text" class="form-control" id="join_date" value="02/25/2020">
+                        </div>
+
+                         <div class="form-group col-md-4">
+                          <label for="my_plan">আমার প্ল্যান <span>*</span></label>
+                          <input type="text" class="form-control" id="my_plan" value="Star">
+                        </div>
+                      </div>
+
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="refer_id">আমার রেফার আইডি <span>*</span></label>
+                          <input type="text" class="form-control" id="refer_id" value="০১৭২৯৩৪৫">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="password">পাসওয়ার্ড <span>*</span></label>
+                          <input type="text" class="form-control" id="password" value="12022020">
+                        </div>
+                      </div>
+                      
+                      <div class="buttons">
+                            <button class="btn btn-primary px-4 ms-3"><a href="edit_profile.html">Update Profile</a></button>
+                        </div>
+                    </form>
+                </div>  
+
+
+
+            </div>
+            
+        </section>
+
+
+
+    <!-- Deshbord Footer Menu-->
+    <section class="footer_menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="footer_menu-box position-sticky">
+                        <ul>
+                            <li><a class="active" href="../index.html"><span><img src="../assets/img/house.png" alt=""></span>হোম</a></li>
+                            <li class=""><a href="../pages/my-profile.html"><span><img src="../assets/img/profile.png" alt=""></span> মাই প্রোফাইল</a></li>   
+                            <li class=""><a href="../pages/accounts_setting.html"><span><img src="../assets/img/servicing.png" alt=""></span>একাউন্টস সেটিংস</a></li> 
+                             <li><a href="#"><span><img src="../assets/img/log-out.png" alt="..."></span>লগ আউট </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Deshbord Footer Menu End-->
+        
+        
+        <!-- Optional JavaScript -->
+        <script src="../assets/js/jquery.min.js"></script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="../assets/js/jquery-3.2.1.slim.min.js"></script>
+        <script src="../assets/js/popper.min.js"></script>
+        <script src="../assets/js/bootstrap.min.js"></script>
+        <script src="../assets/js/main.js"></script>
+    </body>
+</html>

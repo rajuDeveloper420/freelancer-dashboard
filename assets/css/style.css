@@ -1,0 +1,1143 @@
+@import url('https://fonts.maateen.me/kalpurush/font.css');
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+body {
+    font-family: 'Kalpurush', sans-serif;
+}
+
+a {
+    color: #ebebeb;
+    text-decoration: none;
+}
+
+a:hover{
+  color: #ebebeb;
+  text-decoration: none;
+}
+.text-black:hover {
+	color: #645d5d;
+	text-decoration: none;
+}
+
+.col-sm-5 {
+    width: 40%;
+}
+
+.col-sm-7 {
+    width: 60%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Kalpurush', sans-serif;
+}
+section{width: 100%;display: block;}
+
+/* Modal Css Plan Activity */
+
+.hide-me {
+  display: none;
+}
+
+.show-me {
+  display: block;
+}
+
+.modul_footer_image img {
+    width: 80px;
+    margin-top: 25px;
+}
+
+.bikas_btn{
+    background: #e2136e;
+    color: #fff;
+    padding: 6px 40px;
+    transition: all 0.25s linear;
+}
+
+.nogod_btn {
+    background: #ed1c24;
+    color: #fff;
+    padding: 6px 40px;
+    transition: all 0.25s linear;
+}
+
+.bkas_img img{
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+/*--------------------------------------------------------------
+# Main Header
+--------------------------------------------------------------*/
+
+.top_header{
+    background: #0d6efd;
+    padding: 10px 0px;
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+
+.profile_logo{
+    position: absolute;
+    background-color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    display: block;
+    width: 100%;
+    top: 25px;
+    left: 0px;
+    border-radius: 8px;
+}
+
+.profile_logo img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.profile_logo h4 {
+    margin-left: 30px;
+    color: #000;
+    /* font-size: 12px; */
+    font-size: 18px;
+}
+
+@media (max-width: 575px) {
+    .profile_logo h4{font-size: 12px;}
+    .profile_logo img {width: 60px;height: 60px;}
+    .profile_text {margin-left: 50px;}
+}
+
+/*--------------------------------------------------------------
+# Footer Menu
+--------------------------------------------------------------*/
+
+.footer_menu {
+    position: fixed;
+    bottom: 0px;
+    z-index: 9;
+    background-color: #0d6efd;
+    color: #ffff;
+    width: 100%;
+    border-top: 2px solid red;
+}
+    
+.footer_menu-box {
+    background: #0d6efd;
+    color: #ffff;
+}
+
+.footer_menu-box ul {
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+    margin: 0px;
+    padding: 15px 0px;
+}
+
+.footer_menu-box ul li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.footer_menu-box ul li a {
+    font-size: 18px;
+}
+
+.footer_menu-box ul li a:hover {}
+
+.footer_menu-box ul li i {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    margin: -10px;
+    color: #ebebeb;
+}
+
+.footer_menu-box ul li span img {
+    display: block;
+    width: 35px;
+    margin: auto;
+}
+
+
+@media (max-width: 575px) {
+    .footer_menu-box ul li span img {width: 20px;}
+    .footer_menu-box ul li a {font-size: 14px;}
+    .footer_menu-box ul li {padding: 0px 2px;}
+}
+
+
+/*--------------------------------------------------------------
+# Main Menu Category List
+--------------------------------------------------------------*/
+
+.main_menu-category{margin-top: 70px;}
+
+.main_menu-box ul {
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+    /* border-bottom: 1px solid grey; */
+    margin-bottom: 5px;
+}
+
+.main_menu-box ul li {
+    display: inline-block;
+    text-align: center;
+    padding: 15px 15px;
+    width: 250px;
+   /*  border-right: 1px solid grey; */
+
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    background-color: #fff;
+
+}
+.main_menu-box ul li:last-child{
+    border-right: none;
+}
+.main_menu-box ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    /* font-size: 11px; */
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.main_menu-box ul li span {
+    display: block;
+}
+
+.main_menu-box ul li span img {
+    width: 40px;
+}
+
+@media (max-width: 370px) {
+    .main_menu-box ul li {padding: 5px 5px;width: 110px !important;height: 110px !important;}
+    .main_menu-box ul li a{font-size: 16px !important;margin-top:20px !important;}
+    .main_menu-box ul li span img {width: 30px !important;}
+}
+@media (max-width: 320px) {
+    .main_menu-box ul li {padding: 5px 5px;width: 90px !important;height: 70px !important;}
+    .main_menu-box ul li a{font-size: 13px !important;margin-top:5px !important;}
+    .main_menu-box ul li span img {width: 25px !important;}
+}
+
+@media (max-width: 991px) {
+    .main_menu-box ul li {padding: 5px 5px;width: 120px;height: 140px;}
+    .main_menu-box ul li a{font-size: 18px;margin-top: 25px;}
+}
+
+.main_menu-category .col-sm-12{padding-right: 0px;padding-left: 0px;}
+
+/* @media (max-width: 991px) {
+    .main_menu-box ul li {width: 160px;height: 95px;}
+    .main_menu-category{top: 70px;}
+} */
+
+/*--------------------------------------------------------------
+# Plan Activity
+--------------------------------------------------------------*/
+
+.plan_activity{
+    min-height: 75vh;
+    width: 100%;
+    background: radial-gradient(#40ffdc, #e6ff2f45);
+    box-shadow: 0px 0px 6px #05ce00;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+
+@media (max-width: 575px) {
+    .plan_activity h4{font-size: 20px;}
+    .plan_activity p{font-size: 16px;}
+}
+
+/*--------------------------------------------------------------
+# New Offer
+--------------------------------------------------------------*/
+.offer_title img{transition: transform .4s;}
+.offer_title img:hover{opacity: 0.8;transform: scale(1.1);transition: transform .4s;}
+.text-black{color: #000;}
+.text-black h3 {
+	padding-bottom: 15px;
+}
+
+/*--------------------------------------------------------------
+# My Profile
+--------------------------------------------------------------*/
+
+.my_profile{
+    background: radial-gradient(#40ffdc, #e6ff2f45);
+    box-shadow: 0px 0px 6px #05ce00;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+.my_profile .card img,
+.profile_image_ulode img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: auto;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+
+
+.profile_image_ulode{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border: 1px solid grey;
+    border-radius: 50%;
+    background-size: 100% 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.profile_image_ulode:hover .my_file{
+    position: absolute;
+    bottom: 0;
+    outline: none;
+    color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 4;
+}
+
+.my_file::-webkit-file-upload-button{
+    visibility: hidden;
+}
+.fa-camera{
+    visibility: hidden;
+    z-index: 1;
+}
+.profile_image_ulode:hover .fa-camera{
+    position: absolute;
+    bottom: 15px;
+    left: 35px;
+    color: #fff;
+    visibility: visible;
+    z-index: 4;
+}
+
+.img_up{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.my_profile .card{
+    border:none;
+    position:relative;
+    overflow:hidden;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.my_profile .card::before{
+    
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:4px;
+    height:100%;
+    background-color:#E1BEE7;
+    transform:scaleY(1);
+    transition:all 0.5s;
+    transform-origin: bottom
+}
+
+.my_profile .card::after{
+    
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:4px;
+    height:100%;
+    background-color:#8E24AA;
+    transform:scaleY(0);
+    transition:all 0.5s;
+    transform-origin: bottom
+}
+
+.my_profile .card:hover::after{
+    transform:scaleY(1);
+}
+
+
+
+.my_profile .buttons button:nth-child(1){
+       border:1px solid #8E24AA !important;
+       color:#8E24AA;
+       height:40px;
+}
+
+.my_profile .buttons button:nth-child(1):hover{
+       border:1px solid #8E24AA !important;
+       color:#fff;
+       height:40px;
+       background-color:#8E24AA;
+}
+
+.my_profile .buttons button:nth-child(1){
+       border:1px solid #8E24AA !important;
+       background-color:#8E24AA;
+       color:#fff;
+        height:40px;
+}
+
+.my_profile_table tr,td{border: 1px dotted #000;width: 50%;text-align: start;padding-left: 20px;}
+
+@media (max-width: 575px) {
+    .my_profile_table tr,td{padding-left: 6px;font-size: 13px;}
+}
+
+
+.edit_profile{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.edit_profile label{margin-bottom: 0px;}
+.edit_profile span{color: red;}
+
+.edit_profile_backbtn{color:#8E24AA}
+.edit_profile_backbtn:hover;{color:#fff}
+
+
+@media (max-width: 575px) {
+    .edit_profile {padding: 20px 20px 90px 20px;}
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Pop UP Modal PRogress Bar
+--------------------------------------------------------------*/
+
+.form-outer{
+  width: 100%;
+  overflow: hidden;
+}
+.form-outer form{
+  display: flex;
+  width: 400%;
+}
+.form-outer form .page{
+  width: 25%;
+  transition: margin-left 0.3s ease-in-out;
+}
+.form-outer form .page .title{
+  padding-left: 68px;
+  font-size: 17px;
+  font-weight: 500;
+}
+.main-title{
+  font-size: 17px;
+  font-weight: 500;
+}
+.form-outer form .page .field{
+  width: 330px;
+  height: 45px;
+  display: flex;
+  position: relative;
+  margin: auto;
+	margin-top: 25px;
+}
+
+form .page .field .label{
+  position: absolute;
+  top: -30px;
+  font-weight: 500;
+}
+form .page .field input{
+  height: 100%;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding-left: 15px;
+  font-size: 18px;
+}
+form .page .field select {
+	width: 100%;
+	padding-left: 10px;
+	font-size: 18px;
+	font-weight: 500;
+	background: #fff;
+	border: 1px solid lightgrey;
+	border-radius: 8px;
+  color: #53575b;
+}
+
+form .page .field button{
+  width: 73%;
+  height: calc(100% + 5px);
+  border: none;
+  background: #d33f8d;
+  margin-top: -20px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.5s ease;
+  margin: 0 auto;
+}
+form .page .field button:hover{
+  background: #000;
+}
+form .page .btns button{
+  margin-top: -20px!important;
+}
+form .page .btns button.prev {
+	margin-right: 3px;
+	font-size: 17px;
+  padding: 0px 10px;
+}
+form .page .btns button.next {
+	margin-left: 3px;
+	padding: 0px 10px;
+	font-size: 17px;
+}
+.progress-bars{
+  display: flex;
+  user-select: none;
+}
+.progress-bars .step{
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+.progress-bars .step p{
+  font-weight: 500;
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 8px;
+}
+.progress-bars .step .bullet{
+  height: 25px;
+  width: 25px;
+  border: 2px solid #000;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  transition: 0.2s;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 19px;
+}
+.progress-bars .step .bullet.active{
+  border-color: #d43f8d;
+  background: #d43f8d;
+}
+.progress-bars .step .bullet span{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.progress-bars .step .bullet.active span{
+  display: none;
+}
+.progress-bars .step .bullet:before,
+.progress-bars .step .bullet:after{
+  position: absolute;
+  content: '';
+  bottom: 11px;
+  right: -95px;
+  height: 3px;
+  width: 93px;
+  background: #262626;
+}
+.progress-bars .step .bullet.active:after{
+  background: #d43f8d;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 0.3s linear forwards;
+}
+@keyframes animate {
+  100%{
+    transform: scaleX(1);
+  }
+}
+.progress-bars .step:last-child .bullet:before,
+.progress-bars .step:last-child .bullet:after{
+  display: none;
+}
+.progress-bars .step p.active{
+  color: #d43f8d;
+  transition: 0.2s linear;
+}
+.progress-bars .step .check{
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  font-size: 15px;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.progress-bars .step .check.active{
+  display: block;
+  color: #fff;
+}
+
+
+
+/*--------------------------------------------------------------
+# Refer Walet
+--------------------------------------------------------------*/
+
+.cash{
+    cursor: pointer;
+}
+
+.refer_walet_total_balance{
+    width: 130px;
+    height: 130px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    margin-bottom: 45px;
+
+}
+
+.refer_walet_total_balance h2{
+    line-height: 130px;
+}
+
+.walet_balance_firt_nextbtn{
+    margin-left: 150px;
+}
+.field.btns {
+  margin-top: 39px !important;
+  width: 170px !important;
+  height: 33px!important;
+}
+.step2 {
+	width: 282px;
+	margin-left: 60px;
+}
+@media(min-width:768px) and (max-width:991px){
+  .plan_activity {
+    padding-bottom: 100px;
+  }
+}
+@media(min-width:576px) and (max-width:767px){
+  .plan_activity {
+    padding-bottom: 100px;
+  }
+  
+}
+@media(max-width:575px){
+  .progress-bars .step .bullet:before, .progress-bars .step .bullet:after {
+    position: absolute;
+    content: '';
+    bottom: 11px;
+    right: -47px;
+    height: 3px;
+    width: 47px;
+    background: #262626;
+}
+.walet_balance_firt_nextbtn {
+  margin-left: 0px;
+}
+.form-outer form .page .field {
+	width: 251px;
+	margin: auto!important;
+  margin-bottom: 40px !important;
+}
+.modal-dialog {
+	max-width: 300px;
+	margin: 1.75rem auto;
+}
+.progress-bars .step p {
+	font-weight: 500;
+	font-size: 11px;
+	color: #000;
+	margin-bottom: 8px;
+}
+.modal-body {
+	padding: 10px;
+}
+.h2, h2 {
+	font-size: 25px;
+}
+.page.mt-4 {
+	margin-left: 0px!important;
+}
+.form-outer form .page {
+	padding-top: 37px;
+}
+
+.form-outer form .page .title {
+	font-size: 17px;
+	padding-bottom: 11px ;
+  padding-left: 14px;
+}
+.progress-bars .step .check{
+  top: 64%;
+}
+.submit {
+	padding: 0px 10px;
+}
+.step2 {
+	width: 282px;
+	margin-left: 0px;
+}
+
+}
+
+
+
+/*--------------------------------------------------------------
+# Action Form
+--------------------------------------------------------------*/
+.deshbord_main_contant ul li span img {
+    width: 40px !important;
+}
+.deshbord_main_contant ul {
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+}
+.deshbord_main_contant ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+}
+.deshbord_main_contant ul li {
+    display: inline-block;
+    text-align: center;
+    padding: 0px 15px;
+    width: 103px!important;
+}
+
+/*--------------------------------------------------------------
+# Form ONe Desin
+--------------------------------------------------------------*/
+
+#registration-form{
+    margin-bottom: 100px;
+}
+
+#registration-form .star_icon{
+    color: red;
+    margin-left: 5px;
+}
+
+.registretion-title h4 {
+    color: #652d81;
+    border-bottom: 1px solid #cacac9;
+    height: 50px;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 600;
+}
+.registretion-title{
+    padding: 26px 0px;
+}
+.input-box input, .select{
+    display: block;
+    width: 100%;
+    float: right;
+    padding: 7px 11px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-top-right-radius:.25rem;
+    border-bottom-right-radius:.25rem;
+    outline-color:  #BFDEFF!important;
+    margin-bottom: 15px;
+    outline: none;
+}
+.input-box .select{
+    margin-top:0px;
+    color: #4950578f !important
+}
+
+.input-box label{
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.input-box input, .select option{
+    color: #000;
+}
+
+.input-icon i {
+    padding: 5px 14px;
+    padding-bottom: 0.150rem;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-top-left-radius:.25rem;
+    border-bottom-left-radius:.25rem;
+    color: #9c9c9c;
+    border-right: none;
+    }
+    .input-icon{
+        position: relative;
+    }
+    .input-icon span {
+        position: absolute;
+        top: -3px;
+        right: 4px;
+        color: red;
+        font-size: 20px;
+    }
+    .submit-btn {
+        margin-top: -10px;
+        margin-bottom: 10px;
+        padding: 7px 0px;
+        display: block;
+        width: 100%;
+        background-color: #0d6efd;
+        color: #fff;
+        font-size: 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .login-page span{
+        font-size: 13px;
+    }
+    .login-page a {
+        color: #65348b;
+        text-decoration: none;
+        margin-left: -4px;
+        font-weight: 400;
+    }
+    .instruction-title h5 {
+        margin-bottom: 30px;
+        color: #521384;
+        font-size: 18px;
+        margin-left: 22px;
+    }
+    .registration-instruction ul li {
+        font-size: 13px;
+        line-height: 24px;
+    }
+    /* log in */
+    #login-form{
+        margin-bottom: 100px;
+    }
+    .password-reset {
+        display: inline-block;
+        float: right;
+    }
+    .register{
+       padding-left: 15px;
+    }
+    .login-title h4{
+        padding: 30px 0px;
+        color: #666;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .pass{
+        width: 100%;
+        display: block;
+        position: relative;
+        left: 0px;
+    }
+    .pass input{
+        display: block;
+        width: 100%;
+    }
+    .eye-icon i{
+        position: absolute;
+        right: 2%;
+        top: 31%;
+        transform: translateY(-50%);
+        color: gray;
+        font-size: 18px;
+    }
+    .eye-icon2 i {
+        position: absolute;
+        right: 2%;
+        top: 18%;
+    }
+
+    /* responsive */
+    @media(max-width:575px){
+        .input-box input, .select {
+            font-size: 13px!important;
+        }
+     
+        .registration-instruction {
+            margin-top: 30px;
+        }
+        .register {
+            font-size: 14px!important;
+        }
+        .password-reset a{
+            font-size: 14px;
+        }
+    }
+
+
+/*--------------------------------------------------------------
+# Refer List
+--------------------------------------------------------------*/
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom:  2px solid currentColor!important;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #0d6efd!important;
+}
+/* refer list top start */
+@media(min-width:576px) and (max-width:767px){
+.boxs {
+    width: 100%!important;
+    
+}
+#input-preventDefult {
+    margin-top: 15px;
+}
+}
+@media(max-width:575px){
+    .input-groupp {
+        width: 83%;
+    }
+    .boxs{
+        margin-bottom: 5px;
+    }
+  #input-preventDefult {
+    font-size: 13px;
+    width: 104px !important;
+    padding: 8px 0px;
+}
+.boxs {
+    width: 100%!important;
+}
+#input-preventDefult {
+    margin-top: 15px;
+}
+}
+.boxs {
+    width: 13%;
+    padding: 0px 5px;
+}
+/* refer list top end*/
+
+
+/* Cart Active */
+/* Global Stylings */
+.cardactive_formlabel {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+.otp input {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+}
+.cardactive_form .width-50 {
+    width: 50%;
+}
+.cardactive_form .ml-auto {
+    margin-left: auto;
+}
+/* Progressbar */
+.cardactive_form .progressbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    counter-reset: step;
+    margin: 0rem 0 3rem;
+}
+.cardactive_form .progressbar::before,
+.progress {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 100%;
+    background-color: #dcdcdc;
+    z-index: 1;
+}
+.cardactive_form .progress {
+    background-color: #000;
+    width: 0%;
+    transition: 0.3s;
+}
+.cardactive_form .progress-step {
+    width: 2.1875rem;
+    height: 2.1875rem;
+    background-color: #dcdcdc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.cardactive_form .progress-step::before {
+    counter-increment: step;
+    content: counter(step);
+}
+.cardactive_form .progress-step::after {
+    content: attr(data-title);
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    font-size: 0.85rem;
+    color: #666;
+}
+.cardactive_form .progress-step-active {
+    background-color: #000;
+    color: #f3f3f3;
+}
+/* Form */
+.cardactive_form {
+    width: clamp(320px, 30%, 430px);
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 0.35rem;
+    padding: 1.5rem;
+    background-color: #fff;
+    margin-bottom: 35px;
+}
+.cardactive_form .form-step {
+    display: none;
+    transform-origin: top;
+    animation: animate 0.5s;
+}
+.cardactive_form .form-step-active {
+    display: block;
+}
+.input-group {
+    margin: 2rem 0;
+}
+@keyframes animate {
+    .from {
+        transform: scale(1, 0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1, 1);
+        opacity: 1;
+    }
+}
+/* Button */
+.cardactive_form .btns-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.cardactive_form .btn {
+    padding: 0.75rem;
+    display: block;
+    text-decoration: none;
+    background-color: #000;
+    color: #f3f3f3;
+    text-align: center;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.cardactive_form .btn:hover {
+    box-shadow: 0 0 0 2px #fff, 0 0 0 3px #000;
+}
+
+
+.single-card{
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+.single-input-box{
+    border: 1px solid #ddd;
+    padding: 10px 0px 10px 10px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+.main-input input{
+    border: none!important;
+    outline: none;
+}
+.card-img{
+    float: right;
+    text-align: right;
+}
+.radio{
+    margin-top: 5px;
+    width: 27px!important;
+}
+.main-select select {
+    border: 1px solid #ddd;
+    width: 47%;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+.cvv input{
+    border: 1px solid #ddd!important;
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+}
+.cvv{
+    width: 50%;
+    margin-right: 10px;
+}
+.cvv-text{
+    margin-top: 10px;
+}
+.cvv-text p{
+display: inline-block;
+font-size: 15px;
+font-weight: 500;
+}
